@@ -28,16 +28,12 @@ Display: Users will select a restaurant which will display the restaurant's name
 
 ### TECHNOLOGIES
 
-C#
-MySQL
-SQL Alchemy
-Bootstrap
-HTML
-CSS
+C#, MySQL, SQL Alchemy, Bootstrap, HTML, CSS
 
 ### What I'll Have to Learn
-I  would like to have a locator or mapping of the hyperlinked selected restaurant. Therefore, I will need to learn about possibly Google API to do so. I want to
-potentially use some responsive design that could have the User's location and give directions to the selected restaurant within 10 mile radius. 
-### PROJECT TRACKER
 
+I  would like to have a locator or mapping of the hyperlinked selected restaurant. Therefore, I will need to learn about possibly Google API to do so. I want to
+potentially use some responsive design that could have the User's location and give directions to the selected restaurant within a 5 mile radius. 
+
+### PROJECT TRACKER
 https://trello.com/b/Vmfbf7gT/allergenalert
