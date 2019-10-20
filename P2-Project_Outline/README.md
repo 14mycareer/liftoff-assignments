@@ -14,7 +14,15 @@ have dishes without nuts. Therefore, my project is to create an app, AllergenAle
 allergens, then receive a listing of restaurants that serve meals without the chosen allergen. The user will have the
 opportunity to select a restaurant which will display its name, address, phone number, and location/map.
 
-###Features
+###FEATURES
+
+Drop Down/Select: Users will be able to pick an allergen from a drop down list of most common allergens.
+
+Search/Sort: A database search will take place and retrieve information about restaurants that have a flag for not containing allergen.
+
+Listing: Users will receive a listings of restaurants from a database search based upon the allergen selected.
+
+
 
 ###Technologies
 
