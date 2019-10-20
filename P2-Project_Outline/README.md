@@ -34,7 +34,8 @@ SQL Alchemy
 Bootstrap
 
 ### What I'll Have to Learn
-Include what you will need to learn here 
+I  would like to have a locator or mapping of the hyperlinked selected restaurant. Therefore, I will need to learn about possibly Google API to do so. I want to
+potentially use some responsive design that could have the User's location and give directions to the selected restaurant within 10 mile radius. 
 ### PROJECT TRACKER
 
 https://trello.com/b/Vmfbf7gT/allergenalert
