@@ -6,12 +6,13 @@ For this assignment, you will submit a high-level outline of your project. This 
 
 ## Submission Instructions
 
-### Overview
-A few years ago, my God daughter, Nadia,had a medical emergencey after she ate dinner at a new restaurant. She ate a meal that contained nuts
+### OVERVIEW
+
+A few years ago, my God daughter, Nadia, had a medical emergencey after she ate dinner at a new restaurant. She ate a meal that contained nuts
 to which she was allergic. I began to wonder if there were any type of apps that could have alerted Nadia that the restaurant did not
-have dishes without nuts. Therefore, my project is to create an app that allows the user to select from a drop down list of the most common
-allergens. The app, AllergenAlerts, will then provide a listing of restaurants that serve meals without the chosen allergen. The user will have the
-opportunity to select a restaurant which will display its name, address,phone number, and location/map.
+have dishes without nuts. Therefore, my project is to create an app, AllergenAlerts, that allows the user to select an allergen from a drop down list of the most common
+allergens, then receive a listing of restaurants that serve meals without the chosen allergen. The user will have the
+opportunity to select a restaurant which will display its name, address, phone number, and location/map.
 
 ###Features
 
