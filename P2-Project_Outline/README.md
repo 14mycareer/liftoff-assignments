@@ -20,7 +20,7 @@ Drop Down/Select: Users will be able to pick an allergen from a drop down list o
 
 Search/Sort: A database search will take place and retrieve information about restaurants that have a flag for not containing the chosen allergen.
 
-Listing: Users will receive a table of restaurants from a database search that do not contain the allergen selected.
+Listing: Users will receive a table of restaurants that serve dishes that do not contain the allergen selected from a database search.
 
 Display: Users will select a restaurant which will display the restaurant's name, address, phone number, and location/map.
 
@@ -28,7 +28,11 @@ Display: Users will select a restaurant which will display the restaurant's name
 
 ### TECHNOLOGIES
 
-Include Technologies here
+C#
+MySQL
+SQL Alchemy
+Bootstrap
+
 ### What I'll Have to Learn
 Include what you will need to learn here 
 ### PROJECT TRACKER
