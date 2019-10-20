@@ -32,6 +32,8 @@ C#
 MySQL
 SQL Alchemy
 Bootstrap
+HTML
+CSS
 
 ### What I'll Have to Learn
 I  would like to have a locator or mapping of the hyperlinked selected restaurant. Therefore, I will need to learn about possibly Google API to do so. I want to
