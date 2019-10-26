@@ -11,7 +11,6 @@ For this assignment, you'll create some initial plans for your project.
 Here are the [wireframes](https://drive.google.com/open?id=0B6MWusv_rVaKdkwxbGQxN0xOMWxfSlMzdFZISG1ROWF5ZHBN) of my AllergenAlerts project.
 ### Project Tracker
 
-Include a link to your public Trello board. Be sure you have user stories added for at least your first 2-week sprint.
-
+I am attaching a link to my project [tracker](https://trello.com/b/Vmfbf7gT/allergenalert).
 ### Project Repo Link
 Include a link to your project on GitHub.
