@@ -14,6 +14,6 @@ Here is my [Linkedin](https://www.linkedin.com/in/rakiyah-faatuono-25a416161?lip
 It is currently connected to my email address rfaatuono71@gmail.com. I am trying to merge it with my current email, rakiyahfaatuono@gmail.com for Liftoff 2019.
 
 ### Resume
-You will need to upload a .PDF of your resume to this repo, or connect with your mentor on an alternate way of submitting your resume.
+I am attaching my 2019 [Technical Resume](file:///C:/Users/Acer%20Owner/Downloads/TECHNICAL%20RESUME%202019-.pdf) here.
 
 > *Your GitHub repository is public* if you do not want to upload your resume to a public facing repository, talk with your mentor about an alternate way to submit this assignment.
