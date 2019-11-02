@@ -7,7 +7,7 @@ For this assignment you will need to upload your resume and provide links to you
 ## Submission Instructions
  
 ### GitHub
-Provide a link to your GitHub account here.
+This is the link to my [Github](https://github.com/14mycareer)account with an updated profile.
  
 ### LinkedIn
 Here is my [Linkedin](https://www.linkedin.com/in/rakiyah-faatuono-25a416161?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeyPmTs0bRJWSpxzKSliLxA%3D%3D) account.
