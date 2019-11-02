@@ -10,7 +10,8 @@ For this assignment you will need to upload your resume and provide links to you
 Provide a link to your GitHub account here.
  
 ### LinkedIn
-Provide a link to your LinkedIn account here.
+Here is my [Linkedin](https://www.linkedin.com/in/rakiyah-faatuono-25a416161?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeyPmTs0bRJWSpxzKSliLxA%3D%3D) account.
+It is currently connected to my email address rfaatuono71@gmail.com. I am trying to merge it with my current email, rakiyahfaatuono@gmail.com for Liftoff 2019.
 
 ### Resume
 You will need to upload a .PDF of your resume to this repo, or connect with your mentor on an alternate way of submitting your resume.
