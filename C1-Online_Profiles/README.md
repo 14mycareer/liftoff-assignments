@@ -14,5 +14,5 @@ Here is my [Linkedin](https://www.linkedin.com/in/rakiyah-faatuono-25a416161?lip
 It is currently connected to my email address rfaatuono71@gmail.com. I am trying to merge it with my current email, rakiyahfaatuono@gmail.com for Liftoff 2019.
 
 ### Resume
-I am attaching my 2019 [Technical Resume]("C:\Users\Acer Owner\Downloads\TECHNICAL RESUME 2019-.pdf") here.
+I am attaching my 2019 [Technical Resume](C:\Users\Acer Owner\Downloads\TECHNICAL RESUME 2019-.pdf) here.
 
