@@ -1,0 +1,11 @@
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\bin\Debug\netcoreapp2.0\AllergenAlertMVC2.deps.json
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\bin\Debug\netcoreapp2.0\AllergenAlertMVC2.runtimeconfig.json
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\bin\Debug\netcoreapp2.0\AllergenAlertMVC2.runtimeconfig.dev.json
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\bin\Debug\netcoreapp2.0\AllergenAlertMVC2.dll
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\bin\Debug\netcoreapp2.0\AllergenAlertMVC2.pdb
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\obj\Debug\netcoreapp2.0\AllergenAlertMVC2.csprojResolveAssemblyReference.cache
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\obj\Debug\netcoreapp2.0\AllergenAlertMVC2.csproj.CoreCompileInputs.cache
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\obj\Debug\netcoreapp2.0\AllergenAlertMVC2.AssemblyInfoInputs.cache
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\obj\Debug\netcoreapp2.0\AllergenAlertMVC2.AssemblyInfo.cs
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\obj\Debug\netcoreapp2.0\AllergenAlertMVC2.dll
+C:\Users\Acer Owner\source\repos\liftoff-assignments\P4-Project_Setup\AllergenAlertMVC2\AllergenAlertMVC2\obj\Debug\netcoreapp2.0\AllergenAlertMVC2.pdb
