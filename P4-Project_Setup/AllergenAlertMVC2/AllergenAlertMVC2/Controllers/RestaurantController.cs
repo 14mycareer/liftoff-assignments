@@ -9,6 +9,7 @@ namespace AllergenAlertMVC2.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+
             return View();
         }
     }
