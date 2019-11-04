@@ -9,15 +9,13 @@ namespace AllergenAlertMVC2.Controllers
 {
     public class RestaurantController : Controller
     {
+        static private List<string> Restaurants = new List<string>();
         // GET: /<controller>/
         public IActionResult Index()
         {
-            List<string> restaurants = new List<string>();
-            restaurants.Add("Qdoba");
-            restaurants.Add("Panera");
-            restaurants.Add("Chipotle");
+           
 
-            ViewBag.restaurants = restaurants;
+            ViewBag.restaurants = Restaurants;
 
             return View();
         }
@@ -27,5 +25,15 @@ namespace AllergenAlertMVC2.Controllers
         {
             return View();
         }
+
+        //Method to add new restaurant to existing list
+        public IActionResult NewRestaurant(string name)
+        {
+            Restaurants.Add(name);
+
+            return Redirect("/Restaurant");
+
+        }
+
     }
 }
