@@ -2,6 +2,8 @@
     Layout = null;
 }
 <h1>RESTAURANTS</h1>
+
+<p><a asp-controller="Restaurant" asp-action="AddRestaurant"> Add Restaurants</a></p>
 <ul>
     @foreach (string restaurant in ViewBag.restaurants)
     {
