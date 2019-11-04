@@ -9,6 +9,12 @@ namespace AllergenAlertMVC2.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            List<string> restaurants = new List<string>();
+            restaurants.Add("Qdoba");
+            restaurants.Add("Panera");
+            restaurants.Add("Chipotle");
+
+            ViewBag.restaurants = restaurants;
 
             return View();
         }
