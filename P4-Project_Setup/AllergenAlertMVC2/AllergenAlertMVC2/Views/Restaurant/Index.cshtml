@@ -2,14 +2,18 @@
 }
 <h1>RESTAURANTS</h1>
 
-<p><a asp-controller="Restaurant" asp-action="AddRestaurant"> Add Restaurants</a></p>
-<ul>
-    @foreach (string restaurant in ViewBag.restaurants)
+<table class="table">
+
+    <tr>
+        <th>Name</th>
+    </tr>
+    @foreach (var restaurant in ViewBag.restaurants)
     {
-        <li>@restaurant</li>
+        <tr>
+            <td>@restaurant.Name</td>
+        </tr>
 
-    }
+     }
+</table>
 
-
-
-</ul>
+<p><a asp-controller="Restaurant" asp-action="AddRestaurant"> Add Restaurants</a></p>
