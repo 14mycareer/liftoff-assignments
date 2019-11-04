@@ -9,5 +9,11 @@ namespace AllergenAlertMVC2.Models
     {
 
         public string Name { get; set; }
+
+        //Class constructor
+        public Restaurant(string)
+        {
+            Name = name;
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace AllergenAlertMVC2.Controllers
 {
     public class RestaurantController : Controller
     {
-        static private List<Restaurant> Restaurants = new List<string>();
+        static private List<Restaurant> Restaurants = new List<Restaurant>();
         // GET: /<controller>/
         public IActionResult Index()
         {
