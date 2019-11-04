@@ -15,5 +15,7 @@ namespace AllergenAlertMVC2.Models
         {
             Name = name;
         }
+        //Default constructor
+        public Restaurant() { }
     }
 }
