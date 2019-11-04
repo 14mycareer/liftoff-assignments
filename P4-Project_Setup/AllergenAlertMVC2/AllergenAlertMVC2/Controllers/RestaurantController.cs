@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using AllergenAlertMVC2.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -9,7 +10,7 @@ namespace AllergenAlertMVC2.Controllers
 {
     public class RestaurantController : Controller
     {
-        static private List<string> Restaurants = new List<string>();
+        static private List<Restaurant> Restaurants = new List<string>();
         // GET: /<controller>/
         public IActionResult Index()
         {
