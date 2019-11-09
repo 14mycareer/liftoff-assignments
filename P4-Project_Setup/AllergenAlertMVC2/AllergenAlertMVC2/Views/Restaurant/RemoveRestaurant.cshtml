@@ -1,7 +1,8 @@
 ﻿<h1>@ViewBag.title</h1>
 
 <form method="post">
-    @foreach(var restaurant in ViewBag.restaurants)
+
+    @foreach (var restaurant in ViewBag.restaurants)
     {
         <input type="checkbox" name="restaurantIds" id="@restaurant.RestaurantId" value="@restaurant.RestaurantId" />
         <label for="@restaurant.RestaurantId">@restaurant.Name</label>
@@ -9,7 +10,7 @@
 
     }
 
-    <input type="submit" value="Remove Chosen Restaurant(s)"/>
+    <input type="submit" value="Remove Chosen Restaurant(s)" />
 
 
 </form>

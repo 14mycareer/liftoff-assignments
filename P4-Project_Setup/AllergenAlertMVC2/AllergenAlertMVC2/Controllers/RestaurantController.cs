@@ -10,7 +10,7 @@ namespace AllergenAlertMVC2.Controllers
 {
     public class RestaurantController : Controller
     {
-        static private List<Restaurant> Restaurants = new List<Restaurant>();
+       
         // GET: /<controller>/
         public IActionResult Index()
         {
@@ -48,8 +48,9 @@ namespace AllergenAlertMVC2.Controllers
         public IActionResult RemoveRestaurant()
         {
             ViewBag.title = "REMOVE RESTAURANTS";
+
             //shows existing list of restaurants
-            ViewBag.retaurants = Restaurants;
+            ViewBag.restaurants = Restaurants;
             return View();
 
 
