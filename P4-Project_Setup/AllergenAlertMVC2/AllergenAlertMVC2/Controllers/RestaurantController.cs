@@ -54,6 +54,12 @@ namespace AllergenAlertMVC2.Controllers
 
 
         }
+        [HttpPost]
+        public IActionResult RemoveRestaurant()
+        {
+            // to do
+
+        }
 
     }
 }
