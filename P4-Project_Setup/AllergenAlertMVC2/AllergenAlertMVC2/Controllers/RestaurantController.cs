@@ -30,11 +30,9 @@ namespace AllergenAlertMVC2.Controllers
         }
 
         [HttpPost]
-        [Route("/Restaurant/AddRestaurant")]
-
         //Method to add new restaurant to existing list
 
-        public IActionResult NewRestaurant(Restaurant newRestaurant)
+        public IActionResult AddRestaurant(Restaurant newRestaurant)
         {
             RestaurantData.AddRestaurant(newRestaurant);
             
