@@ -57,10 +57,10 @@ namespace AllergenAlertMVC2.Controllers
         [HttpPost]
         public IActionResult RemoveRestaurant(int[] restaurantIds)
         {
-            foreach(int restaurantId in restaurantIds)
+            foreach (int restaurantId in restaurantIds)
             {
                 // to do remove restaurant from list
-                RestaurantData.Remove(restaurantId);
+                RestaurantData.RemoveRestaurant(restaurantId);
 
             }
             
