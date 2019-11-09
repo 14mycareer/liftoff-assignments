@@ -3,6 +3,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AllergenAlertMVC2.Models;
+using System.Collections.Generic;
+
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,9 +18,9 @@ namespace AllergenAlertMVC2.Controllers
         {
            
 
-            ViewBag.restaurants = RestaurantData.GetAll();
+            List<Restaurant> restaurants = RestaurantData.GetAll();
 
-            return View();
+            return View(restaurants);
         }
 
         //Method to create a form to add a restaurant to a list of restaurants
