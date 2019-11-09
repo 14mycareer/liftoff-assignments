@@ -55,9 +55,17 @@ namespace AllergenAlertMVC2.Controllers
 
         }
         [HttpPost]
-        public IActionResult RemoveRestaurant()
+        public IActionResult RemoveRestaurant(int[] restaurantIds)
         {
-            // to do
+            foreach(int restaurantId in restaurantIds)
+            {
+                // to do remove restaurant from list
+                Restaurants.RemoveAll(x => x.RestaurantId == restaurantId);
+            }
+            
+
+
+            return Redirect("/");
 
         }
 
