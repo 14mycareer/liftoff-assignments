@@ -12542,11 +12542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer Owner\\Source\\Repos\\liftoff-assignments\\P4-Project_Setup\\AllergenAlertMVC2\\AllergenAlertMVC2\\AllergenAlertMVC2.csproj",
+      "projectUniqueName": "C:\\Users\\Acer Owner\\source\\repos\\liftoff-assignments\\P4-Project_Setup\\AllergenAlertMVC2\\AllergenAlertMVC2\\AllergenAlertMVC2.csproj",
       "projectName": "AllergenAlertMVC2",
-      "projectPath": "C:\\Users\\Acer Owner\\Source\\Repos\\liftoff-assignments\\P4-Project_Setup\\AllergenAlertMVC2\\AllergenAlertMVC2\\AllergenAlertMVC2.csproj",
+      "projectPath": "C:\\Users\\Acer Owner\\source\\repos\\liftoff-assignments\\P4-Project_Setup\\AllergenAlertMVC2\\AllergenAlertMVC2\\AllergenAlertMVC2.csproj",
       "packagesPath": "C:\\Users\\Acer Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer Owner\\Source\\Repos\\liftoff-assignments\\P4-Project_Setup\\AllergenAlertMVC2\\AllergenAlertMVC2\\obj\\",
+      "outputPath": "C:\\Users\\Acer Owner\\source\\repos\\liftoff-assignments\\P4-Project_Setup\\AllergenAlertMVC2\\AllergenAlertMVC2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
