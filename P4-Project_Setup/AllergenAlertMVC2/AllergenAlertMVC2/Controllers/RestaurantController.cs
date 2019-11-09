@@ -16,7 +16,7 @@ namespace AllergenAlertMVC2.Controllers
         {
            
 
-            ViewBag.restaurants = Restaurants;
+            ViewBag.restaurants = RestaurantData.GetAll();
 
             return View();
         }
@@ -38,7 +38,7 @@ namespace AllergenAlertMVC2.Controllers
             {
                 Name = name
             };
-            Restaurants.Add(newRestaurant);
+            RestaurantData.AddRestaurant(newRestaurant);
 
             return Redirect("/Restaurant");
 
@@ -50,18 +50,18 @@ namespace AllergenAlertMVC2.Controllers
             ViewBag.title = "REMOVE RESTAURANTS";
 
             //shows existing list of restaurants
-            ViewBag.restaurants = Restaurants;
+            ViewBag.restaurants = RestaurantData.GetAll();
             return View();
-
-
         }
+
         [HttpPost]
         public IActionResult RemoveRestaurant(int[] restaurantIds)
         {
             foreach(int restaurantId in restaurantIds)
             {
                 // to do remove restaurant from list
-                Restaurants.RemoveAll(x => x.RestaurantId == restaurantId);
+                RestaurantData.Remove(restaurantId);
+
             }
             
 
