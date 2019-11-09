@@ -32,14 +32,10 @@ namespace AllergenAlertMVC2.Controllers
 
         //Method to add new restaurant to existing list
 
-        public IActionResult NewRestaurant(string name)
+        public IActionResult NewRestaurant(Restaurant newRestaurant)
         {
-            Restaurant newRestaurant = new Restaurant
-            {
-                Name = name
-            };
             RestaurantData.AddRestaurant(newRestaurant);
-
+            
             return Redirect("/Restaurant");
 
         }
