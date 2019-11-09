@@ -1,5 +1,4 @@
-﻿@{
-}
+﻿@model List< AllergenAlertMVC2.Models.Restaurant>
 <h1>RESTAURANTS</h1>
 
 <table class="table">
@@ -7,7 +6,7 @@
     <tr>
         <th>Name</th>
     </tr>
-    @foreach (var restaurant in ViewBag.restaurants)
+    @foreach (var restaurant in Model)
     {
         <tr>
             <td>@restaurant.Name</td>
