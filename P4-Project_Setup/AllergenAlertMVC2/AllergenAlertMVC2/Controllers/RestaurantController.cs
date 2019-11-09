@@ -44,5 +44,16 @@ namespace AllergenAlertMVC2.Controllers
 
         }
 
+        //method to remove a restaurant from the listing
+        public IActionResult RemoveRestaurant()
+        {
+            ViewBag.title = "REMOVE RESTAURANTS";
+            //shows existing list of restaurants
+            ViewBag.retaurants = Restaurants;
+            return View();
+
+
+        }
+
     }
 }
