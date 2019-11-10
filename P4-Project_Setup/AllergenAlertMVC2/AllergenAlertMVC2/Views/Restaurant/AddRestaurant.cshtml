@@ -1,14 +1,15 @@
-﻿@{ 
-
-   
-}
+﻿@model AllergenAlertMVC2.ViewModels.AddRestaurantViewModel
 
 <h1> ADD RESTAURANT</h1>
 
-<form method="post">
+<form asp-controller="Restaurant" asp-action="AddRestaurant" method="post">
 
-    <input name="name" type="text" />
-    <input type="submit" value="Add Restaurant" />
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input class="form-control" asp-for="Name"  />
+    </div>
+
+        <input type="submit" value="Add Restaurant" />
 
 </form>
 
