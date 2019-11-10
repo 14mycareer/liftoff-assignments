@@ -36,14 +36,19 @@ namespace AllergenAlertMVC2.Controllers
 
         public IActionResult AddRestaurant(AddRestaurantViewModel addRestaurantViewModel)
         {
-            Restaurant newRestaurant = new Restaurant
+            if (ModelState.IsValid)
             {
-                Name = addRestaurantViewModel.Name
-            };
+                Restaurant newRestaurant = new Restaurant
+                {
+                    Name = addRestaurantViewModel.Name
+                };
 
-            RestaurantData.AddRestaurant(newRestaurant);
-            
-            return Redirect("/Restaurant");
+                RestaurantData.AddRestaurant(newRestaurant);
+
+                return Redirect("/Restaurant");
+
+            }
+            return View(addRestaurantViewModel);
 
         }
 
