@@ -9,18 +9,9 @@ namespace AllergenAlertMVC2.Models
     {
 
         public string Name { get; set; }
-        public int RestaurantId { get; set; }
-        private static int nextId = 1;
-
+        public int ID { get; set; }
         
-       
-        //Default constructor
-        public Restaurant()
-        {
-            RestaurantId = nextId;
-            nextId++;
 
-
-        }
+              
     }
 }
