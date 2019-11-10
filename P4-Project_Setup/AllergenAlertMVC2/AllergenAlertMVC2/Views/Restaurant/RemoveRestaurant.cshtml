@@ -4,8 +4,8 @@
 
     @foreach (var restaurant in ViewBag.restaurants)
     {
-        <input type="checkbox" name="restaurantIds" id="@restaurant.RestaurantId" value="@restaurant.RestaurantId" />
-        <label for="@restaurant.RestaurantId">@restaurant.Name</label>
+        <input type="checkbox" name="restaurantIds" id="@restaurant.ID" value="@restaurant.ID" />
+        <label for="@restaurant.ID">@restaurant.Name</label>
         <br />
 
     }

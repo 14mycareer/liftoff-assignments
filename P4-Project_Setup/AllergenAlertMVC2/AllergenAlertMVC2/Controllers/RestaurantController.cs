@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using AllergenAlertMVC2.Models;
 using System.Collections.Generic;
 using AllergenAlertMVC2.ViewModels;
+using AllergenAlertMVC2.Data;
 
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,13 +14,21 @@ namespace AllergenAlertMVC2.Controllers
 {
     public class RestaurantController : Controller
     {
-       
+        //create local variable of the DbContext type to use within controller to access database
+        private RestaurantDbContext context;
+
+        //constructor that takes instance of data that is of DbContext type
+        public RestaurantController(RestaurantDbContext dbContext)
+        {
+            context = dbContext;
+        }
+               
         // GET: /<controller>/
         public IActionResult Index()
         {
            
-
-            List<Restaurant> restaurants = RestaurantData.GetAll();
+            //makes list of restaurant type out of restaurant data of DbContext type from a database
+            List<Restaurant> restaurants = context.Restaurants.ToList();
 
             return View(restaurants);
         }
@@ -42,8 +51,10 @@ namespace AllergenAlertMVC2.Controllers
                 {
                     Name = addRestaurantViewModel.Name
                 };
-
-                RestaurantData.AddRestaurant(newRestaurant);
+                //adds to database making changes
+                context.Restaurants.Add(newRestaurant);
+                //saves above changes to database
+                context.SaveChanges();
 
                 return Redirect("/Restaurant");
 
@@ -58,7 +69,7 @@ namespace AllergenAlertMVC2.Controllers
             ViewBag.title = "REMOVE RESTAURANTS";
 
             //shows existing list of restaurants
-            ViewBag.restaurants = RestaurantData.GetAll();
+            ViewBag.restaurants = context.Restaurants.ToList();
             return View();
         }
 
@@ -67,10 +78,13 @@ namespace AllergenAlertMVC2.Controllers
         {
             foreach (int restaurantId in restaurantIds)
             {
-                // to do remove restaurant from list
-                RestaurantData.RemoveRestaurant(restaurantId);
+                // locate restaurant using selected restaurants id to remove from list
+                Restaurant theRestaurant = context.Restaurants.Single(r => r.ID == restaurantId);
+
+                context.Restaurants.Remove(theRestaurant);
 
             }
+            context.SaveChanges();
             
 
 
